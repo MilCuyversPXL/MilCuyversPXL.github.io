@@ -1,0 +1,79 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+  background-color: #e3e3e3;
+  height: 100%;
+  width: 100vw;
+}
+
+nav {
+  background-color: #60626a;
+  
+}
+
+nav .container {
+  background-color: #60626a;
+  width: 100%;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #d3d3d3;
+}
+
+
+.heading {
+  background-color: #60626a;
+  top: 0px;
+  left: 0px;
+  display: absolute;
+  height: 60vh;
+  width: 100%;
+  background-image: url("../img/26284.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#headingTitle {
+  position: relative;
+  left: 10%;
+  top: 80%;
+}
+
+#headingH1 {
+  color: #d3d3d3;
+  display: contents;
+  position: relative;
+}
+
+.container {
+  background-color: #d3d3d3;
+  height: fit-content;
+  width: 80%;
+}
+
+.activiteiten {
+  display: flex;
+  flex-direction: column;
+}
+
+.activiteitenTitle {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.activiteitenDate {  
+  text-align: end;
+}
+
+img {
+  width: 60%;
+}
